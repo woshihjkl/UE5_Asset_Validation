@@ -1,0 +1,42 @@
+{
+    "StaticMesh": {
+        "Character": {
+            "MaxTriangles": 50000,
+            "MaxVertices": 80000,
+            "MinLODCount": 2
+        },
+        "Prop": {
+            "MaxTriangles": 20000,
+            "MaxVertices": 40000,
+            "MinLODCount": 1
+        },
+        "Vegetation": {
+            "MaxTriangles": 15000,
+            "MaxVertices": 30000,
+            "MinLODCount": 2
+        },
+        "LODExemptPaths": [
+            "/Game/LevelPrototyping",
+            "/Game/Fab",
+            "/Game/Blockout",
+            "/Game/WIP",
+            "/Game/Temp"
+        ]
+    },
+    "Texture": {
+        "MaxSize": 2048,
+        "RequirePowerOfTwo": true,
+        "ExemptPaths": [
+            "/Game/UI",
+            "/Game/HUD",
+            "/Game/Widget",
+            "/Game/Icons"
+        ]
+    },
+    "LightmapUV": {
+        "RequireChannel2": true
+    },
+    "Output": {
+        "CSVOutputDir": ""
+    }
+}
