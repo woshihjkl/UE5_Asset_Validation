@@ -1,6 +1,6 @@
 # UE5_Asset_Validation
 
-基于 Unreal Engine 5 Python 开发的轻量级资产规范检测工具。（受保密，此处为个人复刻的建议版本，仅保留核心实现与主流程，业务与定制内容均做了精简）
+基于 Unreal Engine 5 Python 开发的轻量级资产规范检测工具。（受保密，此处为个人复刻的简易版本，仅保留核心实现与主流程，业务与定制内容均做了精简）
 
 该工具用于批量检测项目资源是否符合预设规范，支持 StaticMesh、Texture、Lightmap UV 以及 Hard Reference 等资源检查，并将检测结果导出为 CSV 报告，帮助快速定位资源问题。
 
